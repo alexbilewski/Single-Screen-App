@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DreamGO</string>
+    <string name="info">More information about MIT Entrepreneurship Bootcamp</string>
+    <string name="phoneText">+48 100 100 100</string>
+    <string name="email">dreamgo@gmail.com</string>
+    <string name="access">24h/7</string>
+    <string name="location">Seoul, South Korea</string>
+    <string name="www">www.dreamgo.co</string>
+    <string name="www2">https://bootcamp.mit.edu/entrepreneurship/</string>
+    <string name="abouthead">About</string>
+    <string name="about">DreamGo is Airbnb for career advice. We help inexperienced millennials advance careers by connecting them with experienced professionals.</string>
+    <string name="imgDescription">Representation of website and mobile app.</string>
+</resources>
