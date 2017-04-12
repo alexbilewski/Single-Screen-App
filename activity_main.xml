@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.example.android.MainActivity">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="196dp"
+            android:contentDescription="@string/imgDescription"
+            android:scaleType="centerCrop"
+            android:src="@drawable/site" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/MainText"
+                android:layout_weight="1"
+                android:text="@string/app_name"
+                android:textAlignment="viewStart" />
+
+            <RatingBar
+                style="@style/Widget.AppCompat.RatingBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="16dp"
+                android:numStars="5"
+                android:rating="2.5"
+                android:stepSize="0.5" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/contact"
+            android:autoLink="phone"
+            android:drawableLeft="@mipmap/ic_call_black_18dp"
+            android:text="@string/phoneText" />
+
+        <TextView
+            style="@style/contact"
+            android:autoLink="email"
+            android:drawableLeft="@mipmap/ic_email_black_18dp"
+            android:text="@string/email" />
+
+        <TextView
+            style="@style/contact"
+            android:drawableLeft="@mipmap/ic_access_time_black_18dp"
+            android:text="@string/access" />
+
+        <TextView
+            style="@style/contact"
+            android:drawableLeft="@mipmap/ic_location_on_black_18dp"
+            android:text="@string/location" />
+
+        <TextView
+            style="@style/contact"
+            android:autoLink="web"
+            android:drawableLeft="@mipmap/ic_public_black_18dp"
+            android:text="@string/www" />
+
+        <TextView
+            style="@style/contact"
+            android:text="@string/abouthead" />
+
+        <TextView
+            style="@style/about"
+            android:text="@string/about" />
+
+        <TextView
+            style="@style/SubText"
+            android:text="@string/info" />
+
+        <TextView
+            style="@style/SubText"
+            android:autoLink="web"
+            android:text="@string/www2" />
+    </LinearLayout>
+</ScrollView>
