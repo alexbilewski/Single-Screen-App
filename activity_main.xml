@@ -11,7 +11,7 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:context="com.example.android.myrent.MainActivity">
+        tools:context="com.example.android.MainActivity">
 
         <ImageView
             android:id="@+id/imageView"
